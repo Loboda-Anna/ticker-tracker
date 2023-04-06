@@ -5,7 +5,7 @@ const io = require('socket.io');
 const cors = require('cors');
 
 const FETCH_INTERVAL = 5000;
-const PORT = process.env.PORT || 4000;
+export const PORT = process.env.PORT || 4000;
 
 const tickers = [
   'AAPL', // Apple
