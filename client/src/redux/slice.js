@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import * as actions from "./actions";
 
-
 export const tickersSlice = createSlice({
   name: "tickers",
   initialState: {
